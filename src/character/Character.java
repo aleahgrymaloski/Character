@@ -5,6 +5,8 @@
  */
 package character;
 
+import environment.ApplicationStarter;
+
 /**
  *
  * @author Aleah
@@ -15,6 +17,7 @@ public class Character {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        ApplicationStarter.run("Plankton", new CharacterEnvironment());
         // TODO code application logic here
     }
     
