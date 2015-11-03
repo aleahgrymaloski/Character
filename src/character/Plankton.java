@@ -30,7 +30,7 @@ public class Plankton {
 
         
         //eye
-        graphics.setColor(Color.WHITE);
+        graphics.setColor(Color.YELLOW);
         graphics.fillOval(x + (width * 25 / 100), y + (height * 55 /100), width * 50 / 100, height * 12 / 100);
         
         graphics.setColor(Color.RED);
